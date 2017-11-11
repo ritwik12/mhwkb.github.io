@@ -62,6 +62,18 @@ a img {
 	font-weight: bold;
 }
 
+.rightpanel {
+	position: fixed;
+	top: 0; right: 0;
+	height: 600px;
+	width: 200px;
+	padding: 6px;
+	background-color: #dbcd5b;
+	border-style: ridge;
+	border-color: coral;
+	border-width: 7px;
+}
+
 /*********************************************
 	Constrain table and input widths
 *********************************************/

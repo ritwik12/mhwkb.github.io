@@ -3,20 +3,16 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <table style="width: 100%; margin-left: auto; margin-right: auto;">
-          <tr>
-            <td style="width: 80%; vertical-align: text-top;">
-        {{ content }}
-            </td>
-            <td style="background-color: yellow; vertical-align: text-top;">
-              <p>test</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </main>
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          <div class="container">
+            {{ content }}
+            <div class="rightpanel">
+              {% include rightpanel.html %}
+            </div>
+          </div>
+        </div>
+      </main>
     {% include footer.html %}
   </body>
 </html>
